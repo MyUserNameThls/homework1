@@ -1,0 +1,18 @@
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-family: sans-serif;
+}
+tr,
+th,
+td {
+	border: 1px solid #000;
+}
+caption {
+	border: 1px solid #000;
+	border-bottom: 0;
+	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.cls {
+	color: red;
+}
