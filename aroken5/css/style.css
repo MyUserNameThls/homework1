@@ -1,0 +1,42 @@
+body {
+	font-family: sans-serif;
+	color: white;
+	background-color: #5d3d3d;
+}
+
+.fieldset-1 {
+	max-width: 300px;
+	border: 2px #000 solid;
+	border-radius: 10px;
+	background: #453434e3;
+}
+
+input {
+	margin: 2px 2px 8px 2px;
+	background-color: grey;
+	border-radius: 5px;
+}
+
+::placeholder {
+	color: white;
+}
+
+.area {
+	resize: vertical;
+	max-height: 200px;
+	background-color: grey;
+	border-radius: 5px;
+	margin: 2px 2px 2px 2px;
+}
+
+.cls {
+	display: block;
+	margin: 2px 0;
+}
+
+button {
+	cursor: pointer;
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+}
