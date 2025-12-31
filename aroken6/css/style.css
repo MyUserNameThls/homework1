@@ -1,0 +1,61 @@
+body {
+	font-family: sans-serif;
+	color: white;
+	background-color: #5d3d3d;
+}
+
+.form {
+	border: 2px solid #000;
+	max-width: 300px;
+	background-color: #503a3ac4;
+	border-radius: 10px;
+}
+.fieldset-1 {
+	border: none;
+	padding: 4px 2px 4px 4px;
+	margin-left: 4px;
+}
+
+.legend {
+	padding: 8px 2px;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+input {
+	margin: 2px 2px 8px 2px;
+	background-color: grey;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+
+::placeholder {
+	color: white;
+}
+
+.area {
+	resize: vertical;
+	max-height: 200px;
+	background-color: grey;
+	border-radius: 5px;
+	margin: 2px 2px 2px 2px;
+	outline: none;
+	font-size: 16px;
+	min-height: 40px;
+}
+
+.cls {
+	display: block;
+	margin: 2px 0;
+	font-size: 14px;
+}
+
+button {
+	cursor: pointer;
+	background-color: grey;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 3px 9px;
+}
