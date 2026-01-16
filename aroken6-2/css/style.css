@@ -1,0 +1,133 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	color: white;
+	background-color: #5d3d3d;
+	min-height: 100vh;
+}
+
+.form {
+	border: 2px solid #000;
+	max-width: 400px;
+	width: 100%;
+	background-color: #503a3ac4;
+	border-radius: 10px;
+	padding: 30px;
+}
+.fieldset-1 {
+	border: none;
+	padding: 4px 2px 0 4px;
+	margin-left: 4px;
+}
+
+.legend {
+	padding: 8px 2px;
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+input {
+	background-color: grey;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+
+.input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.input:disabled {
+	opacity: 0.7;
+}
+
+::placeholder {
+	color: white;
+}
+
+.area {
+	resize: vertical;
+	max-height: 200px;
+	background-color: grey;
+	border-radius: 5px;
+	margin: 2px 2px 2px 2px;
+	outline: none;
+	font-size: 16px;
+	min-height: 40px;
+	width: 100%;
+}
+
+.cls {
+	display: inline-block;
+	margin: 10px 0 10px 0;
+	font-size: 14px;
+	padding-left: 22px;
+}
+
+.checkbox-1 {
+	position: absolute;
+	accent-color: grey;
+	appearance: none;
+	outline: none;
+}
+
+.checkbox-1::after {
+	content: "";
+	width: 16px;
+	margin-left: -22px;
+	height: 16px;
+	cursor: pointer;
+	border: 1px solid grey;
+	border-radius: 4px;
+	position: absolute;
+}
+
+.checkbox-1:checked::after {
+	background: url(../images/check-icon.svg) no-repeat center, #777;
+}
+
+.checkbox-1:disabled::after {
+	cursor: default;
+	opacity: 0.7;
+}
+
+.button-1 {
+	cursor: pointer;
+	background-color: grey;
+	color: white;
+	border: none;
+	display: block;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 6px 18px;
+	transition: 0.3s;
+}
+
+.button-1:hover {
+	opacity: 0.5;
+}
+
+.button-1:not(:disabled):active {
+	background-color: #110a0a;
+}
+
+.button-1:disabled {
+	opacity: 0.7;
+	cursor: default;
+}
+
+.input-1:focus-visible,
+.area:focus-visible,
+.checkbox-1:focus-visible::after,
+.button-1:focus-visible {
+	outline: 2px solid #110a0a;
+	outline-offset: 1px;
+}
