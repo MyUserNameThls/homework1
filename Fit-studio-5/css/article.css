@@ -1,0 +1,86 @@
+.article {
+	padding-top: 80px;
+	padding-bottom: 120px;
+}
+
+.article-text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 130%;
+	color: #535755;
+	margin-bottom: 20px;
+}
+
+.article-text:last-child {
+	margin-bottom: 0;
+}
+
+.article-mb-1 {
+	margin-bottom: 80px;
+}
+
+.article-mb-2 {
+	margin-bottom: 40px;
+}
+
+.article-decor-wrapper {
+	position: relative;
+}
+
+.article-decor-wrapper::before {
+	content: "";
+	background: url("../images/decor-icon.svg") no-repeat;
+	width: 528px;
+	height: 48px;
+	position: absolute;
+	z-index: -1;
+}
+
+.article-decor-wrapper-1::before {
+	top: 100px;
+	left: -350px;
+}
+
+.article-decor-wrapper-2::before {
+	bottom: 136px;
+	right: -350px;
+}
+
+.article-list {
+	margin-top: 0;
+	padding-left: 16px;
+}
+.article-item:not(:last-child) {
+	margin-bottom: 12px;
+}
+
+.article-item::marker {
+	color: #3596ed;
+	font-size: 22px;
+}
+
+.article-play-button {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	background-color: #3596ed;
+	border-radius: 50%;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.article-play-button:hover {
+	background-color: #3ba3ff;
+}
+
+.article-play-button:not(:disabled):active {
+	background-color: #005cad;
+}
