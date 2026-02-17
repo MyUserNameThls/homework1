@@ -1,0 +1,36 @@
+/* base */
+@import "./base/normalize.css";
+@import "./base/fonts.css";
+@import "./base/vars.css";
+@import "./base/globals.css";
+
+/* header */
+@import "./blocks/header.css";
+@import "./blocks/menu.css";
+
+/* burger */
+@import "./blocks/burger.css";
+
+/* hero section */
+@import "./blocks/hero.css";
+
+/* air-mag section */
+@import "./blocks/air-mag.css";
+
+/* swiper */
+@import "./blocks/product.css";
+
+/* characteristics */
+@import "./blocks/characteristics.css";
+
+/* top-models */
+@import "./blocks/top-models.css";
+
+/* footer */
+@import "./blocks/footer.css";
+
+/* modal window */
+@import "./blocks/modal.css";
+
+/* modal buy */
+@import "./blocks/modal-buy.css";
