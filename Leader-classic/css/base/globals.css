@@ -1,0 +1,43 @@
+.page {
+	font-family: var(--font-family);
+	background-color: var(--bg-color);
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	min-width: 375px;
+	scrollbar-gutter: stable;
+	min-height: 200vh;
+}
+
+.container {
+	width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	margin-inline: auto;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus,
+select:focus-visible {
+	outline: 2px solid var(--focus-color);
+	outline-offset: 2px;
+	border-radius: 4px;
+}
+
+.black__button {
+	font-weight: 400;
+	font-size: 18px;
+	color: var(--main-color);
+	padding: 21px 28px;
+	border: 1px solid var(--border-black-button);
+	border-radius: 20px;
+}
+
+.orange__button {
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	color: #000;
+	padding: 25px 35px;
+	box-shadow: var(--shadow-button-accent);
+	background: var(--bg-button-accent);
+	border-radius: 20px;
+}

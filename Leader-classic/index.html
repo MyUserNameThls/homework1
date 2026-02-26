@@ -1,0 +1,199 @@
+<!doctype html>
+<html class="page" lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<script defer src="./js/index.js" type="module"></script>
+		<script defer src="./js/actions.js"></script>
+		<link
+			rel="shortcut icon"
+			href="./icons/favicon-money.ico"
+			type="image/x-icon"
+		/>
+		<title>Leader-classic</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header-container">
+				<button
+					class="header__burger burger"
+					aria-expanded="false"
+					aria-controls="header__menu"
+				>
+					<img
+						class="burger__icon-menu"
+						src="./icons/burger-menu-icon.svg"
+						alt="Бургер меню"
+						aria-label="Открыть меню"
+					/>
+					<img
+						class="burger__icon-cross"
+						src="./icons/cross-icon.svg"
+						alt="Закрыть меню"
+					/>
+				</button>
+				<div class="header__main-logo">
+					<a class="header-logo" href="#">
+						<img
+							src="./icons/main-logo.svg"
+							alt=""
+							width="52"
+							height="66"
+							alt="Логотип сайта"
+						/>
+					</a>
+					<h6 class="main__header-title">LEADER CLASSIC</h6>
+				</div>
+				<div class="form-container">
+					<img
+						class="rus-img"
+						src="./icons/rus-icon.svg"
+						width="23"
+						height="23"
+						alt="Российский флаг"
+					/>
+					<form class="form" open>
+						<select class="select" name="county">
+							<option class="main-option" value="RU">RU</option>
+							<option value="England">EN</option>
+							<option value="UK">UK</option>
+						</select>
+					</form>
+					<nav
+						class="menu header__menu"
+						id="header__menu"
+						aria-label="Главное меню"
+					>
+						<ul class="menu__list">
+							<li class="list__item">
+								<a class="list__style" href="#">Тарифы</a>
+							</li>
+							<li class="list__item">
+								<a class="list__style" href="#">Бонус</a>
+							</li>
+							<li class="list__item">
+								<a class="list__style" href="#">Реферальная</a>
+							</li>
+							<li class="list__item">
+								<a class="list__style" href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="buttons">
+					<button class="black__button">Войти</button>
+					<button class="orange__button">Открыть счёт</button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section>
+				<div class="container present__container present__container-bg">
+					<div class="present__container-all">
+						<div class="present__container-info">
+							<img
+								class="present-img"
+								src="./images/present-img.webp"
+								alt="Подарок"
+							/>
+						</div>
+						<div class="present__info">
+							<p class="present__text">Станьте миллионером с Leader Classic</p>
+							<p class="present__text-bottom">
+								Откройте счет, инвестируйте в фонды Leader Classic и получите
+								шанс выиграть один из 100 000 000 ₽
+							</p>
+						</div>
+					</div>
+					<div class="countdown-container">
+						<div class="countdown-element">
+							<span id="days">00</span>
+							<span class="label">Д</span>
+						</div>
+						<div class="after">
+							<span class="after__1">:</span>
+						</div>
+						<div class="countdown-element">
+							<span id="hours">00</span>
+							<span class="label">Ч</span>
+						</div>
+						<div class="after">
+							<span class="after__1">:</span>
+						</div>
+						<div class="countdown-element">
+							<span id="minutes">00</span>
+							<span class="label">М</span>
+						</div>
+						<div class="after">
+							<span class="after__1">:</span>
+						</div>
+						<div class="countdown-element">
+							<span id="seconds">00</span>
+							<span class="label">С</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="broker__actions">
+						<h1 class="main__title">
+							ТОП-5 акций с доходностью до 10-30% уже в 2022 году
+						</h1>
+						<ul class="list__broker__actions">
+							<li class="items__broker__actions">
+								Открытие брокерского счета за 5 минут без визита в офис
+							</li>
+							<li class="items__broker__actions">
+								Доступ к ценным бумагам с любого устройства
+							</li>
+							<li class="items__broker__actions">Поддержка в чате 24/7</li>
+						</ul>
+						<svg class="arrow-down">
+							<use
+								href="./icons/sprite.svg#arrow-down"
+								width="42"
+								height="151"
+							></use>
+						</svg>
+						<div class="buttons__actions-container">
+							<button class="orange__button orange__button-actions">
+								Скачать ТОП-5 акций
+							</button>
+							<img
+								class="list__icon"
+								src="./icons/list-icon.svg"
+								alt="Список в виде иконки"
+							/>
+							<button class="black__button black__button-actions">
+								Открыть счёт
+							</button>
+						</div>
+						<div class="people">
+							<img
+								class="people-img"
+								src="./images/people.svg"
+								alt="Список людей"
+							/>
+							<p class="people__info">
+								Сейчас инвестируют <br />
+								100 000+ пользователей
+							</p>
+						</div>
+					</div>
+					<img
+						class="iphone"
+						width="524"
+						height="1011"
+						src="./images/Wooden Hand iPhone 12 Pro.png"
+						alt="Деревянная рука, которая держит телефон"
+					/>
+					<svg class="round" width="757" height="800">
+						<use href="./icons/sprite.svg#round"></use>
+					</svg>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
