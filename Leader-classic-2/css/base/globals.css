@@ -1,0 +1,59 @@
+.page {
+	font-family: var(--font-family);
+	background-color: var(--bg-color);
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+	min-width: 375px;
+	scrollbar-gutter: stable;
+	min-height: 200vh;
+}
+
+.container {
+	width: min(var(--container-width), 100% - var(--container-padding) * 2);
+	margin-inline: auto;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus,
+select:focus-visible {
+	outline: 2px solid var(--focus-color);
+	outline-offset: 2px;
+	border-radius: 4px;
+}
+
+.black__button {
+	font-weight: 400;
+	font-size: 18px;
+	color: var(--main-color);
+	padding: 21px 28px;
+	border: 1px solid var(--border-black-button);
+	border-radius: 20px;
+}
+
+.orange__button {
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+	color: var(--black-color);
+	padding: 25px 35px;
+	box-shadow: var(--shadow-button-accent);
+	background: var(--bg-button-accent);
+	border-radius: 20px;
+}
+
+.number__1,
+.number__2,
+.number__3 {
+	font-weight: 500;
+	font-size: clamp(15.125rem, 14.949rem + 0.75vw, 15.625rem);
+	line-height: 117%;
+	text-align: center;
+	background: linear-gradient(180deg, #3d4f3b 0%, rgba(61, 79, 59, 0) 100%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	position: absolute;
+	top: -82px;
+	right: 0;
+}

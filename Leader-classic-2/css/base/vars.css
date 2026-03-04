@@ -1,0 +1,62 @@
+:root {
+	/* font family */
+	--font-family: "Gotham Pro", sans-serif;
+	--second-family: "Montserrat", sans-serif;
+	--third-family: "Latin CT", sans-serif;
+	--fouth-family: "Roboto", sans-serif;
+
+	/* colors */
+	--bg-color: #0e0e12;
+	--bg-inviz-color: #2d2d384b;
+	--bg-burger-menu: #161616;
+	--main-color: #fff;
+	--focus-color: #006208;
+	--bg-text: #f0983f;
+	--action-color: #4bd879;
+	--bg-action-price: #262626;
+	--border-black-button: #ff8924;
+	--passive-color: #eae9e9;
+	--tools-title-color: #404040;
+	--tools-text-color: #747474;
+	--black-color: #000;
+	--second-color-black-button: #e7e7e7;
+	--bg-card: #1b1b1c;
+	--bg-card-hover: #d4d4d4;
+
+	/* background colors */
+	--bg-button-accent: linear-gradient(
+		57deg,
+		#dc6b30 0%,
+		#e4864f 42.19%,
+		#ffbe82 72.92%,
+		#e49031 100%
+	);
+	--bg-text-color: radial-gradient(
+		3992.22% 112.45% at 8.04% 17.65%,
+		rgb(231, 170, 25) 0%,
+		rgb(203, 109, 156) 100%
+	);
+
+	--bg-present: linear-gradient(126deg, rgba(56, 56, 56, 0.32) 0%);
+
+	/* box shadow */
+	--shadow-button-accent:
+		inset 0 -4px 0 0 #8f4119, 0 3px 49px -3px rgba(226, 128, 72, 0.76);
+	--shadow-green: 0 0 30px 3px #166b37;
+	--shadow-green-inset: 0 0 30px 3px #166b37;
+	--bg-tel: 0 0 400px 141px #9edfb6;
+
+	/* transitions */
+	--transition-time: 0.3s;
+
+	/* layers */
+	--layer-negative: -1;
+	--layer-0: 0;
+	--layer-1: 1;
+	--layer-2: 2;
+	--layer-3: 3;
+
+	/* container */
+	--container-width: 1240px;
+	--container-padding: 15px;
+}

@@ -1,0 +1,784 @@
+<!doctype html>
+<html class="page" lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"
+			defer
+		></script>
+		<script defer src="./js/index.js" type="module"></script>
+		<script defer src="./js/actions.js"></script>
+		<link
+			rel="shortcut icon"
+			href="./icons/favicon-money.ico"
+			type="image/x-icon"
+		/>
+		<title>Leader-classic</title>
+	</head>
+	<body class="page__body">
+		<header class="header">
+			<div class="container header-container">
+				<button
+					class="header__burger burger"
+					aria-expanded="false"
+					aria-controls="header__menu"
+				>
+					<img
+						class="burger__icon-menu"
+						src="./icons/burger-menu-icon.svg"
+						alt="Бургер меню"
+						aria-label="Открыть меню"
+					/>
+					<img
+						class="burger__icon-cross"
+						src="./icons/cross-icon.svg"
+						alt="Закрыть меню"
+					/>
+				</button>
+				<div class="header__main-logo">
+					<a class="header-logo" href="#">
+						<img
+							src="./icons/main-logo.svg"
+							alt=""
+							width="52"
+							height="66"
+							alt="Логотип сайта"
+						/>
+					</a>
+					<h6 class="main__header-title">LEADER CLASSIC</h6>
+				</div>
+				<div class="form-container">
+					<img
+						class="rus-img"
+						src="./icons/rus-icon.svg"
+						width="23"
+						height="23"
+						alt="Российский флаг"
+					/>
+					<form class="form" open>
+						<select class="select" name="county">
+							<option class="main-option" value="RU">RU</option>
+							<option value="England">EN</option>
+							<option value="UK">UK</option>
+						</select>
+					</form>
+					<nav
+						class="menu header__menu"
+						id="header__menu"
+						aria-label="Главное меню"
+					>
+						<ul class="menu__list">
+							<li class="list__item">
+								<a class="list__style" href="#">Тарифы</a>
+							</li>
+							<li class="list__item">
+								<a class="list__style" href="#">Бонус</a>
+							</li>
+							<li class="list__item">
+								<a class="list__style" href="#">Реферальная</a>
+							</li>
+							<li class="list__item">
+								<a class="list__style" href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="buttons">
+					<button class="black__button">Войти</button>
+					<button class="orange__button">Открыть счёт</button>
+				</div>
+			</div>
+		</header>
+		<main>
+			<section>
+				<div class="container present__container present__container-bg">
+					<div class="present__container-all">
+						<div class="present__container-info">
+							<img
+								class="present-img"
+								src="./images/present-img.webp"
+								alt="Подарок"
+							/>
+						</div>
+						<div class="present__info">
+							<p class="present__text">Станьте миллионером с Leader Classic</p>
+							<p class="present__text-bottom">
+								Откройте счет, инвестируйте в фонды Leader Classic и получите
+								шанс выиграть один из 100 000 000 ₽
+							</p>
+						</div>
+					</div>
+					<div class="countdown-container">
+						<div class="countdown-element">
+							<span id="days">00</span>
+							<span class="label">Д</span>
+						</div>
+						<div class="after">
+							<span class="after__1">:</span>
+						</div>
+						<div class="countdown-element">
+							<span id="hours">00</span>
+							<span class="label">Ч</span>
+						</div>
+						<div class="after">
+							<span class="after__1">:</span>
+						</div>
+						<div class="countdown-element">
+							<span id="minutes">00</span>
+							<span class="label">М</span>
+						</div>
+						<div class="after">
+							<span class="after__1">:</span>
+						</div>
+						<div class="countdown-element">
+							<span id="seconds">00</span>
+							<span class="label">С</span>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="broker__actions">
+						<h1 class="main__title">
+							ТОП-5 акций с доходностью до 10-30% уже в 2022 году
+						</h1>
+						<ul class="list__broker-actions">
+							<li class="items__broker-actions">
+								Открытие брокерского счета за 5 минут без визита в офис
+							</li>
+							<li class="items__broker-actions">
+								Доступ к ценным бумагам с любого устройства
+							</li>
+							<li class="items__broker-actions">Поддержка в чате 24/7</li>
+						</ul>
+						<svg class="arrow-down">
+							<use
+								href="./icons/sprite.svg#arrow-down"
+								width="42"
+								height="151"
+							></use>
+						</svg>
+						<div class="buttons__actions-container">
+							<button class="orange__button orange__button-actions">
+								Скачать ТОП-5 акций
+							</button>
+							<img
+								class="list__icon"
+								src="./icons/list-icon.svg"
+								alt="Список в виде иконки"
+							/>
+							<button class="black__button black__button-actions">
+								Открыть счёт
+							</button>
+						</div>
+						<div class="people">
+							<img
+								class="people-img"
+								src="./images/people.svg"
+								alt="Список людей"
+							/>
+							<p class="people__info">
+								Сейчас инвестируют <br />
+								100 000+ пользователей
+							</p>
+						</div>
+					</div>
+					<picture>
+						<source srcset="././images/Wooden-Hand-iPhone-12-Pro.webp" />
+						<img
+							class="iphone"
+							width="624"
+							height="1011"
+							src="./images/Wooden Hand iPhone 12 Pro.png"
+							alt="Деревянная рука, которая держит телефон"
+						/>
+					</picture>
+					<div class="round"></div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="money__abilities">
+						<div class="money__alilities-container">
+							<h2 class="money__alilities-title">
+								Ваши деньги способны на большее
+							</h2>
+							<p class="invest">
+								Сколько бы вы заработали, инвестируя
+								<strong class="invest--accent">100 000 ₽</strong> год назад?
+							</p>
+						</div>
+						<div class="markets markets--none">
+							<div class="tesla--all">
+								<div class="tesla">
+									<img
+										src="./icons/tesla.svg"
+										alt="Логотип теслы"
+										loading="lazy"
+									/>
+								</div>
+								<div class="tesla__actions">
+									<p class="tesla__action">+83.97%</p>
+									<p class="tesla__price">+72.000₽</p>
+								</div>
+							</div>
+							<div class="amazon--all">
+								<div class="amazon">
+									<img
+										src="./icons/amazon.svg"
+										alt="Логотип амазона"
+										loading="lazy"
+									/>
+								</div>
+								<div class="amazon__actions">
+									<p class="amazon__action">+4.11%</p>
+									<p class="amazon__price">+72.000₽</p>
+								</div>
+							</div>
+							<div class="apple--all">
+								<div class="apple">
+									<img
+										src="./icons/apple.svg"
+										alt="Логотип кампании apple"
+										loading="lazy"
+									/>
+								</div>
+								<div class="apple__actions">
+									<p class="apple__action">+26.36%</p>
+									<p class="apple__price">+72.000₽</p>
+								</div>
+							</div>
+							<div class="yandex--all">
+								<div class="yandex">
+									<img
+										src="./icons/yandex.svg"
+										alt="Логотип Яндекса"
+										loading="lazy"
+									/>
+								</div>
+								<div class="yandex__actions">
+									<p class="yandex__action">+17.19%</p>
+									<p class="yandex__price">+72.000₽</p>
+								</div>
+							</div>
+							<div class="facebook--all">
+								<div class="facebook">
+									<img
+										src="./icons/facebook.svg"
+										alt="Логотип Facebook"
+										loading="lazy"
+									/>
+								</div>
+								<div class="facebook__actions">
+									<p class="facebook__action">+31.32%</p>
+									<p class="facebook__price">+72.000₽</p>
+								</div>
+							</div>
+							<div class="facebook--all">
+								<div class="microsoft">
+									<img
+										src="./icons/microsoft.svg"
+										alt="Логотип Microsoft"
+										loading="lazy"
+									/>
+								</div>
+								<div class="microsoft__actions">
+									<p class="microsoft__action">+38.99%</p>
+									<p class="microsoft__price">+72.000₽</p>
+								</div>
+							</div>
+						</div>
+						<section class="sizes sizes--none">
+							<div class="sizes__slider-wrapper">
+								<button
+									class="sizes__slider-button sizes__slider-button--prev"
+									aria-label="Предыдущий слайд"
+								>
+									<svg width="40" height="40">
+										<use
+											class="sizes__slider-button-icon"
+											href="./icons/sprite.svg#double-arrow"
+										></use>
+									</svg>
+								</button>
+								<div class="swiper sizes__slider">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide">
+											<div class="sizes__slide-inner">
+												<div class="tesla--all">
+													<div class="amazon">
+														<img src="./icons/tesla.svg" alt="Логотип теслы" />
+													</div>
+													<div class="amazon__actions">
+														<p class="amazon__action">+83.97%</p>
+														<p class="amazon__price">+72.000₽</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="sizes__slide-inner">
+												<div class="amazon--all">
+													<div class="amazon">
+														<img
+															src="./icons/amazon.svg"
+															alt="Логотип амазона"
+														/>
+													</div>
+													<div class="amazon__actions">
+														<p class="amazon__action">+4.11%</p>
+														<p class="amazon__price">+72.000₽</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="sizes__slide-inner">
+												<div class="amazon--all">
+													<div class="amazon">
+														<img
+															src="./icons/apple.svg"
+															alt="Логотип амазона"
+														/>
+													</div>
+													<div class="amazon__actions">
+														<p class="amazon__action">+26.36%</p>
+														<p class="amazon__price">+72.000₽</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="sizes__slide-inner">
+												<div class="amazon--all">
+													<div class="amazon">
+														<img
+															src="./icons/yandex.svg"
+															alt="Логотип амазона"
+														/>
+													</div>
+													<div class="amazon__actions">
+														<p class="amazon__action">+17.19%</p>
+														<p class="amazon__price">+72.000₽</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="sizes__slide-inner">
+												<div class="amazon--all">
+													<div class="amazon">
+														<img
+															src="./icons/facebook.svg"
+															alt="Логотип амазона"
+														/>
+													</div>
+													<div class="amazon__actions">
+														<p class="amazon__action">+31.32%</p>
+														<p class="amazon__price">+72.000₽</p>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="swiper-slide">
+											<div class="sizes__slide-inner">
+												<div class="amazon--all">
+													<div class="amazon">
+														<img
+															src="./icons/microsoft.svg"
+															alt="Логотип амазона"
+														/>
+													</div>
+													<div class="amazon__actions">
+														<p class="amazon__action">+38.99%</p>
+														<p class="amazon__price">+72.000₽</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<button
+									class="sizes__slider-button sizes__slider-button--next"
+									aria-label="Следующий слайд"
+								>
+									<svg width="40" height="40">
+										<use
+											class="sizes__slider-button-icon"
+											href="./icons/sprite.svg#double-arrow"
+										></use>
+									</svg>
+								</button>
+							</div>
+						</section>
+						<div class="catalog__container">
+							<h3 class="invest catalog">
+								И еще более 10 000 других ценных бумаг доступно
+								<strong class="invest--accent invest__catalog--accent"
+									>в каталоге</strong
+								>
+							</h3>
+						</div>
+						<div class="catalog__button__container">
+							<button class="orange__button catalog__button">
+								Получить каталог
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="tools__section">
+				<div class="container">
+					<h2 class="money__alilities-title tools__title">
+						Большой выбор инструментов
+					</h2>
+					<div class="tools">
+						<article>
+							<div class="tools__forex-container">
+								<img
+									class="tools-img"
+									src="./icons/tools-ico/forex.ico"
+									alt="Изображение Forex"
+								/>
+								<h4 class="tools__title--all">Forex</h4>
+								<p class="tools__text">
+									Trade 70 major, minor & exotic currency pairs with competitive
+									trading conditions.
+								</p>
+							</div>
+						</article>
+						<article>
+							<div class="tools__forex-container">
+								<img
+									class="tools-img"
+									src="./icons/tools-ico/metals-tools.ico"
+									alt="Изображение Metals"
+								/>
+								<h4 class="tools__title--all">Metals</h4>
+								<p class="tools__text">
+									Trade metal commodities such as Gold, Silver & Platinum.
+								</p>
+							</div>
+						</article>
+						<article>
+							<div class="tools__forex-container">
+								<img
+									class="tools-img"
+									src="./icons/tools-ico/indices.ico"
+									alt="Изображение Indices"
+								/>
+								<h4 class="tools__title--all">Indices</h4>
+								<p class="tools__text">
+									Trade Major and Minor Index CFDs Spot and Futures from around
+									the globe.
+								</p>
+							</div>
+						</article>
+						<article>
+							<div class="tools__forex-container">
+								<img
+									class="tools-img"
+									src="./icons/tools-ico/cryptocurrencies.ico"
+									alt="Изображение Cryptocurrencies"
+								/>
+								<h4 class="tools__title--all">Cryptocurrencies</h4>
+								<p class="tools__text tools__text-cryptocurrencies">
+									Trade Bitcoin, Ether, Doge & more crypto & altcoin CFDs
+								</p>
+							</div>
+						</article>
+						<article>
+							<div class="tools__forex-container">
+								<img
+									class="tools-img"
+									src="./icons/tools-ico/shares.ico"
+									alt="Изображение Shares"
+								/>
+								<h4 class="tools__title--all">Shares</h4>
+								<p class="tools__text">
+									Hundreds of public companies from the US, UK, France & Germany
+									available to trade.
+								</p>
+							</div>
+						</article>
+						<article>
+							<div class="tools__forex-container">
+								<img
+									class="tools-img"
+									src="./icons/tools-ico/energies.ico"
+									alt="Изображение Energies"
+								/>
+								<h4 class="tools__title--all">Energies</h4>
+								<p class="tools__text tools__text-cryptocurrencies">
+									Discover opportunities on UK & US Crude Oil, as well as
+									Natural Gas Spot and Future CFDs.
+								</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="investments__section">
+				<div class="container">
+					<div class="investments">
+						<h2 class="money__alilities-title tools__title investments__title">
+							Инвестиции доступные каждому
+						</h2>
+						<div class="investments__main-text-container">
+							<p class="invest catalog investments__main-text">
+								Простой сервис с подсказками и поддержкой 24/7 на каждом этапе
+							</p>
+						</div>
+						<div class="investments__container">
+							<article class="card">
+								<h4 class="investments__passive-title">Шаг 1</h4>
+								<p class="investments__passive-text">
+									Заполнить регистрационную анкету
+								</p>
+								<p class="tutorial">
+									Нужно указать основные данные о себе: имя, номер телефона,
+									e-mail и пароль для входа.
+								</p>
+								<p class="number__1">1</p>
+							</article>
+							<article class="card">
+								<h4 class="investments__passive-title">Шаг 2</h4>
+								<p
+									class="investments__passive-text investments__passive-text-2"
+								>
+									Внести деньги на счет
+								</p>
+								<p class="tutorial">
+									Вы можете использовать несколько платежных систем для
+									пополнения депозита, включая систему MidexPay и кошелек
+									Bitcoin.
+								</p>
+								<p class="number__2">2</p>
+							</article>
+							<article class="card">
+								<h4 class="investments__passive-title">Шаг 3</h4>
+								<p
+									class="investments__passive-text investments__passive-text-3"
+								>
+									Приступить к онлайн-трейдингу
+								</p>
+								<p class="tutorial">
+									Сразу после пополнения депозита торговля через веб-терминал
+									или мобильную платформу будет доступна.
+								</p>
+								<p class="number__3">3</p>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="bonus__section">
+				<div class="bonus__container--all">
+					<div class="container">
+						<div class="bonus__container">
+							<div class="titles__container">
+								<h2 class="bonus__title">Бонус</h2>
+								<h3 class="bonus__title--passive">
+									Каждый достоин
+									<strong class="bonus__title--passive__accent">
+										второго шанса
+									</strong>
+								</h3>
+							</div>
+							<p class="invest bonus__text">
+								Купите свои первые акции без риска, мы вернем вам 100$ на счет в
+								случае проигрыша
+							</p>
+							<div class="buttons__bonus-container">
+								<button class="orange__button orange__button-bonus">
+									Получить бонус
+								</button>
+								<button class="black__button black__button-bonus">
+									Открыть демо-счёт
+								</button>
+							</div>
+						</div>
+					</div>
+					<picture>
+						<source srcset="./images/many-presents-left.webp" />
+						<img
+							class="presents__left"
+							src="./images/many-presents-left.png"
+							width="859"
+							height="1315"
+							alt="Подарки"
+						/>
+					</picture>
+					<picture>
+						<source srcset="./images/many-presents-right.webp" />
+						<img
+							class="presents__right"
+							src="./images/many-presents-right.png"
+							width="706"
+							height="1399"
+							alt="Подарки"
+						/>
+					</picture>
+					<div class="round__1"></div>
+					<div class="round__2"></div>
+				</div>
+			</section>
+			<section>
+				<div class="container">
+					<div class="advantages">
+						<div class="advantages__title__container">
+							<h2 class="advantages__title">
+								100 000+ клиентов уже инвестируют с нами
+							</h2>
+						</div>
+						<div class="cards__container">
+							<article class="card__advantages">
+								<a class="card__advantages__container-link" href="#">
+									<img
+										class="world__icon"
+										src="./icons/advantages-icons/world-icon.svg"
+										width="48"
+										height="48"
+										alt="Иконка планеты Земля"
+									/>
+									<h3 class="card__title">
+										Представительство компании в Европе
+									</h3>
+									<p class="card__advantages__text">
+										В разных странах мира компания открывает собсвенные
+										представительства.
+									</p>
+									<a class="card__link" href="#">Подробнее</a>
+								</a>
+							</article>
+							<article class="card__advantages">
+								<a class="card__advantages__container-link" href="#">
+									<img
+										class="world__icon"
+										src="./icons/advantages-icons/credit-card-icon.svg"
+										width="48"
+										height="48"
+										alt="Иконка кредитной карты"
+									/>
+									<h3 class="card__title card__title__2">
+										Мгновенный ввод и вывод средств
+									</h3>
+									<p class="card__advantages__text card__advantages__text__2">
+										0% комиссия с депозита
+									</p>
+									<a class="card__link" href="#">Подробнее</a>
+								</a>
+							</article>
+							<article class="card__advantages">
+								<a class="card__advantages__container-link" href="#">
+									<img
+										class="world__icon"
+										src="./icons/advantages-icons/love-people-icon.svg"
+										width="47"
+										height="47"
+										alt="Иконка человека"
+									/>
+									<h3 class="card__title">Кредитное плечо до 1:1000</h3>
+									<a class="card__link" href="#">Подробнее</a>
+								</a>
+							</article>
+							<article class="card__advantages">
+								<a class="card__advantages__container-link" href="#">
+									<img
+										class="world__icon"
+										src="./icons/advantages-icons/time-icon.svg"
+										width="44"
+										height="44"
+										alt="Иконка часов"
+									/>
+									<h3 class="card__title">Время выполнения заказа - 30 мс</h3>
+									<p class="card__advantages__text">
+										Средний показатель по отрасли - 500 мс
+									</p>
+									<a class="card__link" href="#">Подробнее</a>
+								</a>
+							</article>
+							<article class="card__advantages">
+								<a class="card__advantages__container-link" href="#">
+									<img
+										class="world__icon"
+										src="./icons/advantages-icons/cubes-icon.svg"
+										width="39"
+										height="39"
+										alt="Иконка кредитной карты"
+									/>
+									<h3 class="card__title">250 торговых инструментов</h3>
+									<p class="card__advantages__text">
+										Валютные пары, акции, металлы, индексы, облигации
+									</p>
+									<a class="card__link" href="#">Подробнее</a>
+								</a>
+							</article>
+							<article class="card__advantages">
+								<a class="card__advantages__container-link" href="#">
+									<img
+										class="world__icon"
+										src="./icons/advantages-icons/dollar-icon.svg"
+										width="40"
+										height="40"
+										alt="Иконка доллара"
+									/>
+									<h3 class="card__title card__title__big">
+										Счета в евро, рублях, долларах США
+									</h3>
+									<p class="card__advantages__text">
+										Пополните свой счет и сэкономьте на сборах за конвертацию
+									</p>
+									<a class="card__link" href="#">Подробнее</a>
+								</a>
+							</article>
+							<article class="card__advantages">
+								<a class="card__advantages__container-link" href="#">
+									<img
+										class="world__icon"
+										src="./icons/advantages-icons/present-green-icon.svg"
+										width="40"
+										height="40"
+										alt="Иконка подарка"
+									/>
+									<h3 class="card__title card__title__big">
+										15% бонус на первый депозит
+									</h3>
+									<p class="card__advantages__text">
+										Может использоваться в торговле и во время просадки
+									</p>
+									<a class="card__link" href="#">Подробнее</a>
+								</a>
+							</article>
+							<article class="card__advantages">
+								<a class="card__advantages__container-link" href="#">
+									<img
+										class="world__icon"
+										src="./icons/advantages-icons/medal-icon.svg"
+										width="40"
+										height="40"
+										alt="Иконка медали"
+									/>
+									<h3 class="card__title">
+										Инновационная торговая платформа МТ5
+									</h3>
+									<p class="card__advantages__text">
+										Доступно на IOS и Android
+									</p>
+									<a class="card__link" href="#">Подробнее</a>
+								</a>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
