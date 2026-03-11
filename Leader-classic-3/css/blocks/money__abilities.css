@@ -1,0 +1,213 @@
+.money__abilities {
+	padding-top: 100px;
+}
+
+@media (width <= 1324px) {
+	.money__abilities {
+		padding-top: 900px;
+	}
+}
+
+@media (width <= 992px) {
+	.money__abilities {
+		padding-top: 1000px;
+	}
+}
+
+@media (width <= 768px) {
+	.money__abilities {
+		padding-top: 750px;
+	}
+}
+
+@media (width <= 576px) {
+	.money__abilities {
+		padding-top: 450px;
+	}
+}
+
+.money__alilities-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 23px;
+	flex-direction: column;
+}
+
+.money__alilities-title {
+	font-weight: 700;
+	line-height: 117%;
+	text-align: center;
+	color: var(--main-color);
+	max-width: clamp(18.75rem, 6.624rem + 51.74vw, 53.188rem);
+	font-size: clamp(1.563rem, 0.572rem + 4.23vw, 4.375rem);
+}
+
+.invest {
+	font-weight: 400;
+	font-size: clamp(0.75rem, 0.464rem + 1.22vw, 1.563rem);
+	line-height: 158%;
+	text-align: center;
+	color: var(--main-color);
+	max-width: clamp(16.25rem, 7.601rem + 36.9vw, 40.813rem);
+}
+
+.invest--accent {
+	font-weight: 700;
+}
+
+@media (width <= 576px) {
+	.invest__catalog--accent {
+		font-weight: 500;
+	}
+}
+
+.markets {
+	max-height: 351px;
+	padding-top: 100px;
+	display: flex;
+	justify-content: center;
+	gap: 75px;
+}
+
+@media (width <= 992px) {
+	.markets--none {
+		display: none;
+	}
+}
+
+@media (width <= 1324px) {
+	.markets {
+		gap: 40px;
+	}
+}
+
+@media (width <= 1169px) {
+	.markets {
+		gap: 30px;
+	}
+}
+
+@media (width <= 1094px) {
+	.markets {
+		gap: 20px;
+	}
+}
+
+@media (width <= 1040px) {
+	.markets {
+		gap: 15px;
+	}
+}
+
+.tesla,
+.amazon,
+.apple,
+.yandex,
+.facebook,
+.microsoft {
+	border-radius: 24px;
+	height: 144px;
+	width: 144px;
+	background-color: var(--main-color);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tesla,
+.apple,
+.facebook {
+	transform: translateY(57px);
+}
+
+.tesla__actions,
+.amazon__actions,
+.apple__actions,
+.yandex__actions,
+.facebook__actions,
+.microsoft__actions {
+	padding-top: 67px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.amazon__actions,
+.yandex__actions,
+.microsoft__actions {
+	padding-top: 10px;
+}
+
+.tesla__action,
+.amazon__action,
+.apple__action,
+.yandex__action,
+.facebook__action,
+.microsoft__action {
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 130%;
+	color: var(--action-color);
+}
+
+.tesla__price,
+.amazon__price,
+.apple__price,
+.yandex__price,
+.facebook__price,
+.microsoft__price {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 130%;
+	color: var(--main-color);
+	border-radius: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 124px;
+	height: 36px;
+	background-color: var(--bg-action-price);
+}
+
+.catalog__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.catalog {
+	max-width: clamp(16.25rem, 4.036rem + 52.11vw, 50.938rem);
+	padding-top: 145px;
+	padding-bottom: 32px;
+}
+
+@media (width <= 992px) {
+	.catalog {
+		padding-top: 50px;
+		padding-bottom: 32px;
+	}
+}
+
+@media (width <= 458px) {
+	.catalog {
+		padding-top: 30px;
+		padding-bottom: 22px;
+	}
+}
+
+.catalog__button__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: clamp(3.75rem, 1.461rem + 9.77vw, 10.25rem);
+}
+
+.catalog__button {
+	border-radius: clamp(0.5rem, 0.236rem + 1.13vw, 1.25rem);
+	padding-block: clamp(0.875rem, 0.655rem + 0.94vw, 1.5rem);
+	padding-inline: clamp(1.125rem, 0.465rem + 2.82vw, 3rem);
+	font-size: clamp(0.75rem, 0.53rem + 0.94vw, 1.375rem);
+}

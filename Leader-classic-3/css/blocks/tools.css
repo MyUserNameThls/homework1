@@ -1,0 +1,52 @@
+.tools__section {
+	padding-bottom: 139px;
+}
+
+.tools__title {
+	max-width: none;
+	font-size: clamp(1.313rem, 0.234rem + 4.6vw, 4.375rem);
+	padding-bottom: clamp(1.875rem, 0.489rem + 5.92vw, 5.813rem);
+}
+
+.tools {
+	padding-block: 70px;
+	background-color: var(--main-color);
+	display: grid;
+	gap: 80px;
+	grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+}
+
+.tools__forex-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.tools-img {
+	width: 70px;
+	height: 70px;
+	padding-block: 12px;
+	padding-inline: 12px;
+	border: 1.5px solid #000;
+	border-radius: 10px;
+}
+
+.tools__title--all {
+	font-size: 18px;
+	color: var(--tools-title-color);
+	padding-block: 20px;
+	font-weight: 500;
+}
+
+.tools__text {
+	max-width: 260px;
+	font-size: 12px;
+	font-weight: 500;
+	color: var(--tools-text-color);
+	text-align: center;
+}
+
+.tools__text-cryptocurrencies {
+	max-width: 250px;
+}
