@@ -1,0 +1,114 @@
+.advantages__section {
+	padding-bottom: clamp(3.125rem, 1.078rem + 8.73vw, 8.938rem);
+}
+
+.advantages__title__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.advantages__title {
+	font-weight: 500;
+	font-size: clamp(1.563rem, 0.572rem + 4.23vw, 4.375rem);
+	line-height: 117%;
+	text-align: center;
+	color: var(--main-color);
+	max-width: 980px;
+	padding-bottom: clamp(1.25rem, -0.07rem + 5.63vw, 5rem);
+}
+
+.cards__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	gap: 22px;
+}
+
+.card__advantages {
+	display: flex;
+	flex-direction: column;
+	border-radius: 5px;
+	background-color: var(--bg-card);
+	transition: background-color var(--transition-time);
+}
+
+.card__advantages:hover {
+	background-color: var(--bg-card-hover);
+}
+
+.card__advantages__container-link {
+	max-width: 378px;
+	padding-inline: 40px 40px;
+	padding-block: 39px 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	color: var(--main-color);
+	transition: color var(--transition-time);
+}
+
+.card__advantages:hover .card__advantages__container-link {
+	color: var(--bg-card);
+}
+
+/* .card__advantages__container {
+} */
+
+.card__title {
+	font-weight: 500;
+	font-size: clamp(1.25rem, 1.118rem + 0.56vw, 1.625rem);
+	line-height: 125%;
+	max-width: 276px;
+}
+
+.card__title__2 {
+	max-width: 250px;
+}
+
+.card__title__big {
+	max-width: 300px;
+}
+
+.card__advantages__text {
+	font-weight: 400;
+	font-size: clamp(1.125rem, 1.037rem + 0.38vw, 1.375rem);
+	line-height: 157%;
+	max-width: 301px;
+	padding-bottom: 12px;
+}
+
+.card__advantages__text__2 {
+	max-width: 160px;
+}
+
+.card__link {
+	display: inline-flex;
+	justify-content: end;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 157%;
+	text-decoration-skip-ink: none;
+	color: var(--main-color);
+	text-align: right;
+	gap: 5px;
+	margin-right: 40px;
+	padding-inline: 220px 22px;
+	padding-bottom: 30px;
+	margin-top: auto;
+	transition: color var(--transition-time);
+}
+
+.card__advantages:hover .card__link {
+	color: var(--black-color);
+}
+
+.card__link::after {
+	content: "→";
+	text-decoration: none;
+	display: inline-block;
+	transition: transform var(--transition-time);
+}
+
+.card__advantages:hover .card__link::after {
+	transform: translateX(10px);
+}

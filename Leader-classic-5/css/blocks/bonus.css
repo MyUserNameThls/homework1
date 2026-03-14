@@ -1,0 +1,265 @@
+.bonus__section {
+	padding-bottom: clamp(1.875rem, -0.106rem + 8.45vw, 7.5rem);
+}
+
+.bonus__container--all {
+	position: relative;
+}
+
+.bonus__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.titles__container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	padding-bottom: clamp(1.563rem, 1.386rem + 0.75vw, 2.063rem);
+}
+
+.bonus__title {
+	font-weight: 700;
+	font-size: clamp(4.375rem, 1.514rem + 12.21vw, 12.5rem);
+	line-height: 117%;
+	text-align: center;
+	background: linear-gradient(180deg, #4b5951 0%, rgba(61, 82, 70, 0.1) 98.9%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	position: absolute;
+	z-index: var(--layer-negative);
+	top: -150px;
+	text-transform: uppercase;
+}
+
+@media (width <= 1110px) {
+	.bonus__title {
+		top: -116px;
+	}
+}
+
+@media (width <= 992px) {
+	.bonus__title {
+		top: -104px;
+	}
+}
+
+@media (width <= 900px) {
+	.bonus__title {
+		top: -98px;
+	}
+}
+
+@media (width <= 820px) {
+	.bonus__title {
+		top: -92px;
+	}
+}
+
+@media (width <= 730px) {
+	.bonus__title {
+		top: -86px;
+	}
+}
+
+@media (width <= 650px) {
+	.bonus__title {
+		top: -81px;
+	}
+}
+
+@media (width <= 594px) {
+	.bonus__title {
+		top: -77px;
+	}
+}
+
+@media (width <= 530px) {
+	.bonus__title {
+		top: -65px;
+	}
+}
+
+@media (width <= 470px) {
+	.bonus__title {
+		top: -57px;
+	}
+}
+
+@media (width <= 440px) {
+	.bonus__title {
+		top: -61px;
+	}
+}
+
+@media (width <= 380px) {
+	.bonus__title {
+		top: -54px;
+	}
+}
+
+.bonus__title--passive {
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 122%;
+	max-width: clamp(18.75rem, 9.507rem + 39.44vw, 45rem);
+	text-align: center;
+	color: var(--main-color);
+	font-size: clamp(1.5rem, 0.488rem + 4.32vw, 4.375rem);
+}
+
+.bonus__title--passive__accent {
+	line-height: 117%;
+}
+
+.bonus__text {
+	padding-bottom: clamp(1.563rem, 1.386rem + 0.75vw, 2.063rem);
+}
+
+.buttons__bonus-container {
+	display: flex;
+	gap: clamp(0.5rem, 0.236rem + 1.13vw, 1.25rem);
+	padding-bottom: clamp(6.25rem, 4.049rem + 9.39vw, 12.5rem);
+}
+
+.orange__button-bonus,
+.black__button-bonus {
+	padding-block: clamp(0.875rem, 0.391rem + 2.07vw, 2.25rem);
+	padding-inline: clamp(1.125rem, -0.239rem + 5.82vw, 5rem);
+}
+
+.orange__button-bonus {
+	font-weight: 700;
+	font-size: clamp(0.75rem, 0.53rem + 0.94vw, 1.375rem);
+	line-height: 159%;
+	text-align: center;
+	padding-inline: clamp(1.875rem, 0.335rem + 6.57vw, 6.25rem);
+}
+
+.black__button-bonus {
+	font-weight: 400;
+	font-size: clamp(0.75rem, 0.53rem + 0.94vw, 1.375rem);
+	line-height: 159%;
+	color: #e7e7e7;
+	color: var(--second-color-black-button);
+	margin: 0;
+}
+
+.presents__left,
+.presents__right {
+	position: absolute;
+}
+
+.presents__left {
+	left: 0;
+	top: -390px;
+}
+
+.presents__right {
+	top: -290px;
+	right: 0;
+}
+
+@media (width <= 1870px) {
+	.presents__left {
+		width: 759px;
+		height: 1215px;
+	}
+
+	.presents__right {
+		width: 606px;
+		height: 1299px;
+	}
+}
+
+@media (width <= 1670px) {
+	.presents__left {
+		width: 659px;
+		height: 1115px;
+	}
+
+	.presents__right {
+		width: 506px;
+		height: 1199px;
+	}
+}
+
+@media (width <= 1500px) {
+	.presents__left {
+		width: 559px;
+		height: 1015px;
+	}
+
+	.presents__right {
+		width: 406px;
+		height: 1099px;
+	}
+}
+
+@media (width <= 1300px) {
+	.presents__left {
+		top: -330px;
+		width: 459px;
+		height: 915px;
+	}
+
+	.presents__right {
+		top: -210px;
+		width: 306px;
+		height: 999px;
+	}
+}
+
+@media (width <= 1100px) {
+	.presents__left {
+		top: -280px;
+		width: 359px;
+		height: 815px;
+	}
+
+	.presents__right {
+		top: -177px;
+		width: 206px;
+		height: 899px;
+	}
+}
+
+@media (width <= 924px) {
+	.presents__left {
+		display: none;
+	}
+
+	.presents__right {
+		display: none;
+	}
+}
+
+.round__1,
+.round__2 {
+	top: 40px;
+	right: 0;
+	width: 0.5px;
+	height: 0.5px;
+	position: absolute;
+	filter: blur(40px);
+	border-radius: 50%;
+	box-shadow: var(--bg-tel);
+	z-index: var(--layer-negative);
+}
+
+.round__2 {
+	top: 62px;
+	left: 0;
+}
+
+@media (width <= 924px) {
+	.round__1,
+	.round__2 {
+		display: none;
+	}
+}
