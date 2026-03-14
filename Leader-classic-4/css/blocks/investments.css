@@ -1,0 +1,74 @@
+.investments__section {
+	padding-bottom: 200px;
+}
+
+.investments__title {
+	font-size: clamp(1.5rem, 0.488rem + 4.32vw, 4.375rem);
+	padding-bottom: 0;
+}
+
+.investments__main-text-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.investments__main-text {
+	padding-top: 28px;
+	max-width: 500px;
+	padding-bottom: 100px;
+}
+
+.investments__container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+	justify-content: center;
+	gap: 50px;
+	padding-bottom: clamp(1.25rem, -0.951rem + 9.39vw, 7.5rem);
+}
+
+.card {
+	max-width: 400px;
+	position: relative;
+}
+
+.investments__passive-title {
+	font-weight: 400;
+	font-size: clamp(1.125rem, 1.059rem + 0.28vw, 1.313rem);
+	line-height: 130%;
+	color: var(--main-color);
+	padding-bottom: clamp(0.75rem, 0.574rem + 0.75vw, 1.25rem);
+	text-transform: uppercase;
+}
+
+.investments__passive-text {
+	font-weight: 500;
+	font-size: clamp(1.688rem, 1.621rem + 0.28vw, 1.875rem);
+	line-height: 130%;
+	color: var(--main-color);
+	padding-bottom: clamp(0.875rem, 0.545rem + 1.41vw, 1.813rem);
+	max-width: 350px;
+}
+
+.tutorial {
+	font-weight: 400;
+	font-size: clamp(0.938rem, 0.783rem + 0.66vw, 1.375rem);
+	line-height: 159%;
+	color: var(--main-color);
+	max-width: clamp(14.375rem, 11.14rem + 13.8vw, 23.563rem);
+}
+
+.investments__passive-text-2 {
+	max-width: clamp(14.375rem, 13.495rem + 3.76vw, 16.875rem);
+	padding-bottom: clamp(0.75rem, -0.57rem + 5.63vw, 4.5rem);
+}
+
+.investments__passive-text-3 {
+	max-width: clamp(18.75rem, 18.09rem + 2.82vw, 20.625rem);
+	padding-bottom: clamp(1rem, -0.232rem + 5.26vw, 4.5rem);
+}
+
+.number__3 {
+	right: -15px;
+	top: -65px;
+}

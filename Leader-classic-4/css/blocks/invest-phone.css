@@ -1,0 +1,185 @@
+.invest__phone-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: clamp(3.125rem, 0.924rem + 9.39vw, 9.375rem);
+}
+
+@media (width <= 992px) {
+	.invest__phone-container {
+		flex-direction: column;
+		gap: 0;
+	}
+}
+
+.invest__phone-container-1 {
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.invest__phone-title {
+	text-align: start;
+	font-size: clamp(1.563rem, 0.792rem + 3.29vw, 3.75rem);
+	max-width: clamp(23.125rem, 13.438rem + 15.63vw, 27.5rem);
+}
+
+.invest__phone-text {
+	color: var(--invest-phone-color);
+	text-align: start;
+	max-width: clamp(12.5rem, 6.338rem + 26.29vw, 30rem);
+}
+
+.invest__phone-img {
+	max-width: clamp(28.25rem, 21.648rem + 28.17vw, 47rem);
+	max-height: clamp(24.313rem, -17.205rem + 66.96vw, 43.063rem);
+}
+
+@media (width <= 992px) {
+	.invest__phone-title,
+	.invest__phone-text {
+		text-align: center;
+		max-width: 770px;
+	}
+
+	.invest__phone-text {
+		max-width: 550px;
+	}
+
+	.invest__phone-container-1 {
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.invest__phone-container-2 {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.invest__phone-img {
+		max-width: clamp(18.75rem, 4.695rem + 59.97vw, 41.875rem);
+		max-height: clamp(11.25rem, -8.085rem + 82.5vw, 43.063rem);
+	}
+}
+
+.invest__phones-container {
+	display: flex;
+	position: relative;
+	align-items: center;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	padding-bottom: clamp(80px, 1.919rem + 13.15vw, 220px);
+}
+
+@media (width <= 992px) {
+	.invest__phones-container {
+		flex-direction: column;
+		gap: 0;
+	}
+}
+
+.invest__phones-img {
+	max-width: clamp(27.438rem, -14.08rem + 66.96vw, 46.188rem);
+	max-height: clamp(19.438rem, 5.598rem + 22.32vw, 25.688rem);
+}
+
+@media (width <= 992px) {
+	.invest__phones-img {
+		max-width: clamp(18.75rem, 5.873rem + 54.94vw, 39.938rem);
+		max-height: clamp(13.188rem, 5.59rem + 32.41vw, 25.688rem);
+	}
+}
+
+.invest__phones-text {
+	padding-bottom: 0;
+}
+
+.round__3 {
+	position: absolute;
+	filter: blur(20px);
+	width: 20px;
+	height: 20px;
+	top: 158px;
+	left: 382px;
+	border-radius: 50%;
+	box-shadow: var(--bg-tels);
+	z-index: var(--layer-negative);
+}
+
+@media (width <= 1290px) {
+	.round__3 {
+		left: 260px;
+	}
+}
+
+@media (width <= 992px) {
+	.round__3 {
+		top: 358px;
+		left: 472px;
+	}
+}
+
+@media (width <= 992px) {
+	.round__3 {
+		top: clamp(12.125rem, 4.661rem + 31.84vw, 22.375rem);
+		left: clamp(10rem, -4.199rem + 60.58vw, 29.5rem);
+	}
+}
+
+@media (width <= 576px) {
+	.round__3 {
+		box-shadow: var(--bg-tels-2);
+	}
+}
+
+.buttons__container--all {
+	display: flex;
+	gap: clamp(5px, -0.103rem + 0.67vw, 8px);
+}
+
+.dark__button {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+
+.buttons-container {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: clamp(11px, -0.004rem + 1.12vw, 16px);
+	border: 2px solid var(--dark-buttons-color);
+	border-radius: 35px;
+	padding-inline: clamp(6px, -0.317rem + 1.12vw, 11px);
+	padding-block: clamp(14px, -0.509rem + 2.23vw, 24px);
+}
+
+.buttons-container-1 {
+	padding-inline: clamp(15.5px, -1.107rem + 3.35vw, 30.5px);
+}
+
+.buttons__text {
+	font-weight: 400;
+	font-size: clamp(12px, 0.196rem + 0.89vw, 16px);
+	line-height: 126%;
+	color: var(--main-color);
+}
+
+@media (width <= 768px) {
+	.buttons__container--all {
+		padding-bottom: 10px;
+	}
+
+	.buttons-container {
+		padding-block: clamp(10px, 0.386rem + 1.02vw, 14px);
+	}
+
+	.buttons__text {
+		font-size: clamp(10px, 0.506rem + 0.51vw, 12px);
+	}
+
+	.buttons-container {
+		gap: clamp(0.438rem, 0.199rem + 1.02vw, 0.688rem);
+	}
+}
