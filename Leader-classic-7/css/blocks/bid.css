@@ -1,0 +1,152 @@
+.bid__container-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bid__title {
+	max-width: 100%;
+	padding-bottom: clamp(50px, 2.685rem + 1.88vw, 70px);
+}
+
+.bid__tutorial {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(307.5px, 1fr));
+	gap: 20px;
+	justify-content: center;
+	padding-bottom: clamp(50px, 2.025rem + 4.69vw, 100px);
+}
+
+.bid__arrow-right {
+	max-width: clamp(160px, 4.464rem + 8.93vw, 200px);
+	position: absolute;
+	top: 12%;
+	left: 13%;
+}
+
+.bid__arrow-right-2 {
+	max-width: clamp(160px, 4.464rem + 8.93vw, 200px);
+	position: absolute;
+	top: 12%;
+	left: 47%;
+}
+
+@media (width <= 992px) {
+	.bid__arrow-right,
+	.bid__arrow-right-2 {
+		display: none;
+	}
+}
+
+.article__bid-container {
+	max-width: 400px;
+}
+
+.bid-icon {
+	padding-bottom: 25px;
+}
+
+@media (width <= 576px) {
+	.bid-icon {
+		width: 70px;
+		height: 95px;
+	}
+}
+
+.article__bid-title {
+	font-weight: 400;
+	max-width: 320px;
+	font-size: clamp(25px, 0.871rem + 1.12vw, 30px);
+	line-height: 130%;
+	text-align: start;
+	color: var(--main-color);
+	padding-bottom: 22px;
+}
+
+.article__bid-title-2 {
+	max-width: clamp(200px, 8.348rem + 6.7vw, 230px);
+}
+
+.article__bid-title-3 {
+	max-width: clamp(320px, 13.08rem + 11.16vw, 370px);
+}
+
+.article__bid-text {
+	text-align: start;
+	max-width: clamp(242px, 7.098rem + 12.95vw, 300px);
+	padding-bottom: 0;
+	font-size: clamp(17px, 0.647rem + 0.67vw, 20px);
+}
+
+.article__bid-text-2 {
+	max-width: clamp(248px, 8.304rem + 11.61vw, 300px);
+}
+
+.article__bid-text-3 {
+	max-width: clamp(270px, 9.263rem + 12.28vw, 325px);
+}
+
+.fieldset__label__container {
+	border: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 200px;
+}
+
+.input {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 159%;
+	padding-block: 30px;
+	padding-inline: clamp(2px, -4.077rem + 7.31vw, 40px);
+	color: var(--main-color);
+	border: 4px solid var(--input-border);
+	border-radius: 20px;
+	background-color: var(--label-bg);
+	transition: box-shadow var(--transition-time);
+}
+
+input:focus-visible,
+input:hover {
+	outline: none;
+	border-radius: 20px;
+	box-shadow: var(--shadow-green);
+}
+
+.bid__orange__button {
+	padding: 37px 60px;
+}
+
+@media (width <= 1095px) {
+	.bid__orange__button {
+		padding: 37px 50px;
+	}
+}
+
+@media (width <= 1033px) {
+	.bid__orange__button {
+		font-size: 16px;
+		padding: 37px 50px;
+	}
+}
+
+@media (width <= 920px) {
+	.fieldset__label__container {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.input {
+		padding-left: 10px;
+		padding-right: clamp(100px, 1.95rem + 18.35vw, 200px);
+	}
+
+	.bid__orange__button {
+		font-size: 18px;
+		padding-block: 37px;
+		padding-inline: clamp(79px, 2.744rem + 9.36vw, 130px);
+	}
+}
